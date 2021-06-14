@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home Work 3</title>
+</head>
+<body>
+	<!-- <img src="https://worldnewsn.s3.amazonaws.com/media/images/UEC_june19.jpg?fbclid=IwAR1eGoqRfadKDQ0LevWnhytc8775RBlZN0Pt-NBnU5DUg3XpbmBcXr1KOvI"> -->
+
+	<div align="center">
+		<img src="./UEC_june19.jpg" width="100px" height="100px" />
+		<h3>
+			<u>Welcome To 2020 Election</u>
+		</h3>
+		<p>
+			Citizen ID: WDF 4056
+		</p>
+	</div>
+
+	<hr/>
+
+	<table border="1" align="center">
+	<form>
+
+		<thead bgcolor="yellow">
+		<tr>
+			<th colspan="2">Election Form</th>
+		</tr>
+		</thead>
+
+		<tbody>
+		<tr>
+			<td>
+				<label for="leadername">Leader Name :</label>
+			</td>
+			<td>
+				<input type="text" name="leadername" id="leadername" class="leadername" placeholder="Enter Leader Name" />
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label for="yourname">Your Name :</label>
+			</td>
+			<td>
+				<input type="text" name="yourname" id="yourname" class="yourname" placeholder="Enter Your Name" />
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label for="email">Email :</label>
+			</td>
+			<td>
+				<input type="email" name="email" id="email" class="email" placeholder="Enter Your Email" />
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label for="passcode">Passcode :</label>
+			</td>
+			<td>
+				<input type="password" name="passcode" id="passcode" class="passcode" placeholder="Enter Your Passcode" />
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label>Parties :</label>
+			</td>
+			<td>
+				<input type="radio" name="parties" id="nldparty" class="" value="nld" />
+				<label for="nldparty">NLD</label>
+
+				<input type="radio" name="parties" id="usdpparty" class="" value="usdp" />
+				<label for="usdpparty">USDP</label>
+
+				<input type="radio" name="parties" id="pppparty" class="" value="ppp" />
+				<label for="pppparty">PPP</label>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label for="city">Location :</label>
+			</td>
+			<td>
+				<select name="city" id="city" class="city">
+					<option selected disabled>Choose City</option>
+					<option value="ygn">Yangon</option>
+					<option value="mdy">Mandalay</option>
+					<option value="aye">Ayeyarwady</option>
+					<option value="pol">Pyin-Oo-Lwin</option>
+					<option value="las">Lashio</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				<input type="checkbox" name="condition" id="condition" class="condition" checked />
+				<label for="condition">I accept all the regulation of election community.</label>
+			</td>
+		</tr>
+		</tbody>
+
+		<tfoot>
+		<tr align="right">
+			<td colspan="2">
+				<input type="reset" name="reset" id="reset" class="reset" value="Cancel" />
+				<input type="submit" name="submit" id="submit" class="submit" value="Submit" />
+			</td>
+		</tr>
+		</tfoot>
+		
+	</form>
+	</table>
+
+	<hr/>
+
+	<div align="center">
+		<p>Already register!<a href="#">Click Here to Login</a></p>
+	</div>
+</body>
+</html>
